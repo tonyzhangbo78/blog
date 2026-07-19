@@ -4,6 +4,7 @@ import type Plyr from 'plyr'
 import 'plyr/dist/plyr.css'
 import { useEffect, useMemo, useRef, useState } from 'react'
 
+import Comment from '@site/src/components/Comment'
 import { type VideoCategory, type VideoItem, videoCategoryLabels, videos } from '@site/data/videos'
 import styles from './styles.module.css'
 
@@ -333,6 +334,9 @@ export default function VideosPage(): JSX.Element {
             <p>{DESCRIPTION}</p>
           </header>
           <VideosContent />
+          <div className="margin-top--xl">
+            <Comment />
+          </div>
         </div>
       </main>
     </Layout>
