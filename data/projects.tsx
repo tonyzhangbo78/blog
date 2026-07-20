@@ -18,12 +18,12 @@ export const projects: Project[] = [
     type: 'web',
   },
   {
-    title: 'Youni（校园社交平台）',
-    description: '基于 React Native + NestJs 实现的一个校园社交平台应用',
+    title: 'Youni（跨端图文社区）',
+    description: '基于 React Native、Expo 和 Hono 的跨端图文社区',
     preview: '/img/project/youni.png',
-    website: 'https://youni.vercel.app',
+    website: 'https://youni.kuizuo.me',
     source: 'https://github.com/kuizuo/youni',
-    tags: ['large', 'product'],
+    tags: ['opensource', 'large', 'product'],
     type: 'web',
   },
   {
